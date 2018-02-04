@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.irmayantisyam.irma_1202154347_modul1.SecActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makan Malam"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/cafe"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/menuket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porsi"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/porsi"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
